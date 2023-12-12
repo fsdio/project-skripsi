@@ -2,8 +2,10 @@
 
 # Menampilkan pesan untuk meminta input
 echo "===== Pilih Eksekusi ====="
-echo "[1] Push"
+echo "[1] Commit"
 echo "[2] Log"
+echo "[3] Push"
+echo "[4] Pull"
 echo ""
 
 # Menerima input dari pengguna
@@ -20,6 +22,10 @@ if [ $choose -eq 1  ]; then
     git commit -m "$message"
 elif [ $choose -eq 2 ]; then
     git log --pretty=oneline --abbrev-commit
+elif [ $choose -eq 3 ]; then
+    git push origin
+elif [ $choose -eq 3 ]; then
+    git pull origin
 else
     echo "Menu Tidak Tersedia."
 fi
