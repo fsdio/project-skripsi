@@ -12,20 +12,26 @@ echo ""
 echo "Input > "
 read choose
 
-# Memeriksa apakah bilangan positif, negatif, atau nol
-if [ $choose -eq 1  ]; then
+# Memeriksa apakah input berupa angka
+if ! [[ "$choose" =~ ^[1-4]$ ]]; then
+    echo "Input tidak valid."
+    exit 1
+fi
+
+# Menjalankan operasi yang sesuai berdasarkan input
+if [ "$choose" -eq 1 ]; then
     git status
     git add *
     git status
-    echo "Message > "
-    read message
+
+    git config --global user.email "klikrahmatsunjani@gmail.com"
+    git config --global user.name "Rahmat Sunjani"
+    read -r -p "Message > " message
     git commit -m "$message"
-elif [ $choose -eq 2 ]; then
+elif [ "$choose" -eq 2 ]; then
     git log --oneline --graph --pretty=format:'%C(auto)%h%d (%ci) %s'
-elif [ $choose -eq 3 ]; then
+elif [ "$choose" -eq 3 ]; then
     git push origin
-elif [ $choose -eq 3 ]; then
+elif [ "$choose" -eq 4 ]; then
     git pull origin
-else
-    echo "Menu Tidak Tersedia."
 fi
