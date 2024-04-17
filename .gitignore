@@ -1,0 +1,5 @@
+# Ignore directory .tmp.driveupload/
+.tmp.driveupload/
+
+# Ignore semua file di dalam .tmp.driveupload/ (jika ada)
+.tmp.driveupload/*

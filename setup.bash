@@ -21,7 +21,7 @@ if [ $choose -eq 1  ]; then
     read message
     git commit -m "$message"
 elif [ $choose -eq 2 ]; then
-    git log --pretty=oneline --abbrev-commit
+    git log --oneline --graph --pretty=format:'%C(auto)%h%d (%ci) %s'
 elif [ $choose -eq 3 ]; then
     git push origin
 elif [ $choose -eq 3 ]; then
