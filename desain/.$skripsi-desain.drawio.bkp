@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2024-04-22T10:21:34.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ioaOW_b0Y4AcWLrztl1r" version="23.0.2" type="device">
+  <diagram name="Page-1" id="Q089SNv3BG9ol_x-LQor">
+    <mxGraphModel dx="2165" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fETj03PGLKbs1eXrY1rx-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry width="830" height="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-1" value="Penguji" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;flipH=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry width="414.99999999999994" height="1169.9999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-2" value="Programmer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;flipH=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="414.99999999999994" width="414.99999999999994" height="1169.9999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-3" value="Soal Pemrograman (text)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=0;direction=east;flipV=0;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="522.5925925925925" y="93.59999999999998" width="199.8148148148148" height="109.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-4" value="Soal Pemrograman (text)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=0;direction=east;flipV=0;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="107.5925925925926" y="93.59999999999998" width="199.8148148148148" height="109.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.008;entryY=0.424;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.415;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fETj03PGLKbs1eXrY1rx-21" source="fETj03PGLKbs1eXrY1rx-3" target="fETj03PGLKbs1eXrY1rx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.6296296296296" y="249.59999999999997" as="sourcePoint" />
+            <mxPoint x="476.4814814814814" y="171.59999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-6" value="Pengerjaan&lt;br&gt;Source Code" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="107.5925925925926" y="280.79999999999995" width="199.8148148148148" height="93.59999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.495;exitY=0.915;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fETj03PGLKbs1eXrY1rx-21" source="fETj03PGLKbs1eXrY1rx-4" target="fETj03PGLKbs1eXrY1rx-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="336.6111111111111" y="358.79999999999995" as="sourcePoint" />
+            <mxPoint x="122.96296296296295" y="360.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-8" value="Jawaban&lt;br&gt;Pemrograman (code)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=0;direction=east;flipV=0;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="107.5925925925926" y="467.9999999999999" width="199.8148148148148" height="109.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.495;exitY=0.915;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fETj03PGLKbs1eXrY1rx-21" target="fETj03PGLKbs1eXrY1rx-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206.68537037037038" y="374.3999999999999" as="sourcePoint" />
+            <mxPoint x="208.22240740740742" y="461.75999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-11" value="Jawaban&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Pemrograman (code)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=0;direction=east;flipV=0;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="522.5925925925925" y="467.9999999999999" width="199.8148148148148" height="109.19999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fETj03PGLKbs1eXrY1rx-21" source="fETj03PGLKbs1eXrY1rx-8" target="fETj03PGLKbs1eXrY1rx-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445.7407407407407" y="499.19999999999993" as="sourcePoint" />
+            <mxPoint x="446.55537037037027" y="592.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-13" value="Pengecekan&lt;br&gt;Source Code" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="522.5925925925925" y="670.8" width="199.8148148148148" height="93.59999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="fETj03PGLKbs1eXrY1rx-21" target="fETj03PGLKbs1eXrY1rx-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="622.5" y="561.5999999999999" as="sourcePoint" />
+            <mxPoint x="728.5555555555557" y="657.0909090909087" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="621.547037037037" y="764.3999999999999" as="sourcePoint" />
+            <mxPoint x="622.5" y="857.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-18" value="Penilaian&lt;br&gt;Source Code" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="522.5925925925925" y="857.9999999999999" width="199.8148148148148" height="93.59999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="621.7314814814815" y="951.5999999999999" as="sourcePoint" />
+            <mxPoint x="622.6844444444445" y="1045.1999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fETj03PGLKbs1eXrY1rx-20" value="A" style="triangle;whiteSpace=wrap;html=1;flipH=0;direction=south;verticalAlign=middle;" vertex="1" parent="fETj03PGLKbs1eXrY1rx-21">
+          <mxGeometry x="561.0185185185185" y="1045.1999999999998" width="122.96296296296295" height="93.59999999999998" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

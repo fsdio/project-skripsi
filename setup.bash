@@ -30,8 +30,4 @@ if [ "$choose" -eq 1 ]; then
     git commit -m "$message"
 elif [ "$choose" -eq 2 ]; then
     git log --oneline --graph --pretty=format:'%C(auto)%h%d (%ci) %s'
-elif [ "$choose" -eq 3 ]; then
-    git push origin
-elif [ "$choose" -eq 4 ]; then
-    git pull origin
 fi
